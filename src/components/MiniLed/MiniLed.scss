@@ -1,0 +1,80 @@
+.mini-led {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -4px;
+	margin-top: -4px;
+	mix-blend-mode: overlay;
+}
+
+.mini-led--on {
+	background: #FFFFC1;
+	box-shadow: 0 0 12px 4px rgba(255,93,0,0.39), inset 0 0 3px 1px #FF5D00;
+}
+
+.mini-led--off {
+	background: #3F3F3F;
+	box-shadow: inset 1px 1px 1px 0 rgba(255,255,255,0.04), inset -1px -1px 1px 0 rgba(0,7,32,0.5);
+}
+
+.mini-led-1 {
+	transform: rotate(135deg) translate(200px);
+}
+
+.mini-led-2  {
+	transform: rotate(150deg) translate(200px);
+}
+.mini-led-3  {
+	transform: rotate(165deg) translate(200px);
+}
+.mini-led-4  {
+	transform: rotate(180deg) translate(200px);
+}
+.mini-led-5  {
+	transform: rotate(195deg) translate(200px);
+}
+.mini-led-6  {
+	transform: rotate(210deg) translate(200px);
+}
+.mini-led-7  {
+	transform: rotate(225deg) translate(200px);
+}
+.mini-led-8  {
+	transform: rotate(240deg) translate(200px);
+}
+.mini-led-9  {
+	transform: rotate(255deg) translate(200px);
+}
+.mini-led-10 {
+	transform: rotate(270deg) translate(200px);
+}
+.mini-led-11 {
+	transform: rotate(285deg) translate(200px);
+}
+.mini-led-12 {
+	transform: rotate(300deg) translate(200px);
+}
+.mini-led-13 {
+	transform: rotate(315deg) translate(200px);
+}
+.mini-led-14 {
+	transform: rotate(330deg) translate(200px);
+}
+.mini-led-15 {
+	transform: rotate(345deg) translate(200px);
+}
+.mini-led-16 {
+	transform: rotate(360deg) translate(200px);
+}
+.mini-led-17 {
+	transform: rotate(15deg) translate(200px);
+}
+.mini-led-18 {
+	transform: rotate(30deg) translate(200px);
+}
+.mini-led-19 {
+	transform: rotate(45deg) translate(200px);
+}
