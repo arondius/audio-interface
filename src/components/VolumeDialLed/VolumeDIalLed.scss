@@ -1,0 +1,12 @@
+.volume-dial-led {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -17px;
+	margin-left: -5px;
+	width: 10px;
+	height: 34px;
+	background: #FFFFC1;
+	box-shadow: 0 0 12px 4px rgba(255,93,0,0.39), inset 2px 2px 3px 0 #FF8139, inset -2px -2px 3px 0 #FF5D00;
+	border-radius: 5px;
+}

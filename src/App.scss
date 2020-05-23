@@ -1,0 +1,22 @@
+body, html {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+body {
+  background: #343538;
+}
+
+.app-root {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+  height: 100vh;
+  min-height: 0;
+}
+
+.elements {
+	margin: 88px;
+}

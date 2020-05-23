@@ -7,7 +7,6 @@
 	left: 50%;
 	margin-left: -4px;
 	margin-top: -4px;
-	mix-blend-mode: overlay;
 }
 
 .mini-led--on {
@@ -67,14 +66,14 @@
 	transform: rotate(345deg) translate(200px);
 }
 .mini-led-16 {
-	transform: rotate(360deg) translate(200px);
+	transform: rotate(360deg) translate(200px); // 0deg;
 }
 .mini-led-17 {
-	transform: rotate(15deg) translate(200px);
+	transform: rotate(375deg) translate(200px); // 15deg
 }
 .mini-led-18 {
-	transform: rotate(30deg) translate(200px);
+	transform: rotate(390deg) translate(200px); // 30deg
 }
 .mini-led-19 {
-	transform: rotate(45deg) translate(200px);
+	transform: rotate(405deg) translate(200px); // 45deg
 }

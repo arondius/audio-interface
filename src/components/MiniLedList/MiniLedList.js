@@ -3,9 +3,14 @@ import MiniLed from '../MiniLed/MiniLed';
 
 const MiniLedList = (props) => {
   let miniLeds = [];
-  for(let i = 0; i < props.volumeSteps; i++) {
-    const isLedOn = ((props.volumeSteps * (props.volume / 100)) >= i ) ? 'on' : 'off';
-    miniLeds.push(<MiniLed index={i} power={isLedOn}/>);
+  let { volumeSteps } = props;
+
+  if (volumeSteps < 10) { volumeSteps = 10 }
+  else if (volumeSteps > 19) volumeSteps = 19;
+
+  for(let i = 0; i < volumeSteps; i++) {
+    const isLedOn = ((volumeSteps * (props.volume / 100)) >= i ) ? 'on' : 'off';
+    miniLeds.push(<MiniLed index={i} key={i} power={isLedOn}/>);
   }
   return miniLeds;
 }
